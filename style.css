@@ -1,0 +1,49 @@
+body{
+    margin:0px;
+    background: #00000008;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-container{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background: #fff;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 3px 7px 11px 4px #0000002b;
+}
+
+
+.imageButton{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+     
+
+}
+
+#next{
+    margin-left: 20px;
+    width: 67px;
+    border-radius: 5px;
+    border: 1px solid #ded4d4;
+    height: 35px;
+    background: green;
+    color:white;
+    
+}
+#previous{
+    width: 69px;
+    border-radius: 5px;
+    border: 1px solid #ded4d4;
+    height: 35px;
+    background:green;
+    color:white;
+
+}
